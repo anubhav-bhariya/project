@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /*box-sizing: border-box;*/
+}
+
+.logo {
+  border: 2px solid white;
+  border-radius: 90px;
+  padding: 10px;
+}
+
+.nav-item {
+  margin: 5px;
+}
+
+.search {
+  background-color: orange;
+  color: white;
+}
+
+.card {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.col-md-2 {
+  margin: 5px;
+}
+
+.banner1 {
+  background-image: url("./image/controller.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.banner2 {
+  background-image: url("./image/laptop.jpg");
+  background-size: contain;
+  background-position: 40% 0%;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.banner3 {
+  background-image: url("./image/drawing.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+
+.watch{
+  background-image: url("./image/watch2.jpg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+.tv{
+  background-image: url("./image/tv.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.jacket{
+  background-image: url("./image/jacket.jpg");
+  background-size: contain;
+ /* background-position: 60% 0%;*/
+
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+.iwatch{
+  background-image: url("./image/watch.jpg");
+  background-size: contain;
+ /* background-position: 60% 0%;*/
+
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+.triangle{
+  width: 0px;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid white;
+}
+.canerra{
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+#more {display: none;}
+
+@media screen and (min-width: 992px) {
+  .ms {
+    width: 50%;
+    margin-left: 150px;
+  }
+}
